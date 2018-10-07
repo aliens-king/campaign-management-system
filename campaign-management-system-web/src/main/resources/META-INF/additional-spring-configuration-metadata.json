@@ -1,0 +1,147 @@
+{"properties": [
+  {
+    "name": "otp.account.sid",
+    "type": "java.lang.String",
+    "description": "A description for 'otp.account.sid'"
+  },
+  {
+    "name": "otp.auth.token",
+    "type": "java.lang.String",
+    "description": "A description for 'otp.auth.token'"
+  },
+  {
+    "name": "otp.register.mobile",
+    "type": "java.lang.String",
+    "description": "A description for 'otp.register.mobile'"
+  },
+  {
+    "name": "otp.send.message",
+    "type": "java.lang.String",
+    "description": "A description for 'otp.send.message'"
+  },
+  {
+    "name": "otp.length",
+    "type": "java.lang.String",
+    "description": "A description for 'otp.length'"
+  },
+  {
+    "name": "client.app.context",
+    "type": "java.lang.String",
+    "description": "A description for 'client.app.context'"
+  },
+  {
+    "name": "client.app.reset.password.link",
+    "type": "java.lang.String",
+    "description": "A description for 'client.app.reset.password.link'"
+  },
+  {
+    "name": "client.app.template.reset.password.link",
+    "type": "java.lang.String",
+    "description": "A description for 'client.app.template.reset.password.link'"
+  },
+  {
+    "name": "otp.sign.up.type",
+    "type": "java.lang.String",
+    "description": "A description for 'otp.sign.up.type'"
+  },
+  {
+    "name": "otp.login.type",
+    "type": "java.lang.String",
+    "description": "A description for 'otp.login.type'"
+  },
+  {
+    "name": "admin.app.context",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.app.context'"
+  },
+  {
+    "name": "admin.app.template.reset.password.link",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.app.template.reset.password.link'"
+  },
+  {
+    "name": "client.app.url",
+    "type": "java.lang.String",
+    "description": "A description for 'client.app.url'"
+  },
+  {
+    "name": "client.app.reset.password.url",
+    "type": "java.lang.String",
+    "description": "A description for 'client.app.reset.password.url'"
+  },
+  {
+    "name": "admin.app.reset.password.url",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.app.reset.password.url'"
+  },
+  {
+    "name": "crypex.security.jwt.token-expiration-time",
+    "type": "java.lang.String",
+    "description": "A description for 'crypex.security.jwt.token-expiration-time'"
+  },
+  {
+    "name": "crypex.security.jwt.refresh-token-exp-time",
+    "type": "java.lang.String",
+    "description": "A description for 'crypex.security.jwt.refresh-token-exp-time'"
+  },
+  {
+    "name": "crypex.security.jwt.token-issuer",
+    "type": "java.lang.String",
+    "description": "A description for 'crypex.security.jwt.token-issuer'"
+  },
+  {
+    "name": "crypex.security.jwt.token-signing-key",
+    "type": "java.lang.String",
+    "description": "A description for 'crypex.security.jwt.token-signing-key'"
+  },
+  {
+    "name": "ngex.security.jwt.token-expiration-time",
+    "type": "java.lang.String",
+    "description": "A description for 'ngex.security.jwt.token-expiration-time'"
+  },
+  {
+    "name": "ngex.security.jwt.refresh-token-exp-time",
+    "type": "java.lang.String",
+    "description": "A description for 'ngex.security.jwt.refresh-token-exp-time'"
+  },
+  {
+    "name": "ngex.security.jwt.token-issuer",
+    "type": "java.lang.String",
+    "description": "A description for 'ngex.security.jwt.token-issuer'"
+  },
+  {
+    "name": "stripe.publishable.key",
+    "type": "java.lang.String",
+    "description": "A description for 'stripe.publishable.key'"
+  },
+  {
+    "name": "stripe.secret.key",
+    "type": "java.lang.String",
+    "description": "A description for 'stripe.secret.key'"
+  },
+  {
+    "name": "ngex.twilio.account.sid",
+    "type": "java.lang.String",
+    "description": "A description for 'ngex.twilio.account.sid'"
+  },
+  {
+    "name": "ngex.twilio.from.phone.number",
+    "type": "java.lang.String",
+    "description": "A description for 'ngex.twilio.from.phone.number'"
+  },
+  {
+    "name": "ngex.twilio.account.auth.token",
+    "type": "java.lang.String",
+    "description": "A description for 'ngex.twilio.account.auth.token'"
+  },
+  {
+    "name": "ngex.security.jwt.tokenSigningKey",
+    "type": "java.lang.String",
+    "description": "A description for 'ngex.security.jwt.tokenSigningKey'"
+  },
+  {
+    "name": "ngex.security.jwt.tokenSigningKey",
+    "type": "java.lang.String",
+    "description": "A description for 'ngex.security.jwt.tokenSigningKey'"
+  }
+]}

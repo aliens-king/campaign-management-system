@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.cmanagement</groupId>
+		<artifactId>campaign-management-system</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>campaign-management-system-web</artifactId>
+	<packaging>war</packaging>
+
+	<name>Web or Rest module for ngex Application</name>
+	<url>http://maven.apache.org</url>
+
+	<dependencies>
+
+		<!-- For common module -->
+		<dependency>
+			<groupId>com.cmanagement</groupId>
+			<artifactId>campaign-management-system-common</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<!-- For Service module -->
+		<dependency>
+			<groupId>com.cmanagement</groupId>
+			<artifactId>campaign-management-system-service</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.jayway.restassured/spring-mock-mvc -->
+		<dependency>
+			<groupId>com.jayway.restassured</groupId>
+			<artifactId>spring-mock-mvc</artifactId>
+			<version>2.9.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all -->
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-all</artifactId>
+			<version>1.3</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/net.sf.uadetector/uadetector-core -->
+		<dependency>
+			<groupId>net.sf.uadetector</groupId>
+			<artifactId>uadetector-core</artifactId>
+			<version>0.9.22</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.sf.uadetector/uadetector-resources -->
+		<dependency>
+			<groupId>net.sf.uadetector</groupId>
+			<artifactId>uadetector-resources</artifactId>
+			<version>2014.10</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.twilio.sdk/twilio -->
+		<dependency>
+			<groupId>com.twilio.sdk</groupId>
+			<artifactId>twilio</artifactId>
+			<version>7.17.8</version>
+		</dependency>
+
+	</dependencies>
+	<build>
+		<finalName>almightychoice</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

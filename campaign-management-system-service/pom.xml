@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.cmanagement</groupId>
+		<artifactId>campaign-management-system</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>campaign-management-system-service</artifactId>
+	<name>Service module</name>
+	<description>Service module for ngex</description>
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.cmanagement</groupId>
+			<artifactId>campaign-management-system-common</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.cmanagement</groupId>
+			<artifactId>campaign-management-system-dao</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.twilio.sdk/twilio -->
+		<dependency>
+
+			<groupId>com.twilio.sdk</groupId>
+			<artifactId>twilio</artifactId>
+			<version>7.15.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+		</dependency>
+
+
+	</dependencies>
+</project>
